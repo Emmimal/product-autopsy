@@ -1,0 +1,14 @@
+mode=det  model claims accepted=0  routed to human review=0
+
+| category | defects | recall | precision | false-positive rate |
+|---|---|---|---|---|
+| missing_file | 10 | 100% | 100% | 0% |
+| broken_link | 10 | 100% | 100% | 0% |
+| spreadsheet | 10 | 80% | 100% | 0% |
+| ALL | 30 | 93% | 100% | 0% |
+
+missed defects (2):
+  runway-model|sheet|total revenue  [promise_wrong_free_phrasing]
+  study-planner|sheet|total revenue  [promise_wrong_free_phrasing]
+spurious findings (ids not in ground truth): 0
+unverified (needs human review): 0

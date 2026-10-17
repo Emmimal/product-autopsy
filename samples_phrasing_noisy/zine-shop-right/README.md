@@ -1,0 +1,17 @@
+# Zine Shop
+
+Zine Shop helps you keep a small business on track. Everything lives in one workbook.
+
+## What's included
+- The workbook: `tracker.xlsx`
+- Demo rows: `example-data.csv`
+
+## Setup
+Open `tracker.xlsx` first and enter your starting balance.
+Across the ten sample months, revenue totals 1,397.
+Your own rows replace the demo rows, and every total updates automatically.
+
+## Links
+- [Quick guide](guide.md)
+- [Troubleshooting tips](guide.md#troubleshooting)
+- [Jump to setup](#setup)

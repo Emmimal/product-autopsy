@@ -1,0 +1,52 @@
+Realistic-README hold-out, Gemma 3 1B, run 1 (standalone run, copied from the terminal)
+
+Command:
+python run_benchmark.py --mode gemma --set phrasing_noisy --model gemma3:1b
+
+Output:
+set=phrasing_noisy  mode=gemma  model claims accepted=8  model claims rejected by validation (left for human review)=6
+
+| category | defects | recall | precision | false-positive rate |
+|---|---|---|---|---|
+| missing_file | 0 | n/a | n/a | n/a |
+| broken_link | 0 | n/a | n/a | n/a |
+| spreadsheet | 10 | 50% | 100% | 0% |
+| ALL | 10 | 50% | 100% | 0% |
+
+missed defects (5):
+  tutor-tracker-wrong|sheet|total revenue  [free_phrasing_t0_wrong]
+  photo-booking-wrong|sheet|total revenue  [free_phrasing_t2_wrong]
+  bake-sale-wrong|sheet|total revenue  [free_phrasing_t3_wrong]
+  tour-guide-wrong|sheet|total revenue  [free_phrasing_t6_wrong]
+  zine-shop-wrong|sheet|total revenue  [free_phrasing_t7_wrong]
+spurious findings (ids not in ground truth): 0
+
+why claims were sent to human review:
+    4  no_expected_value
+    2  claim_text_not_in_source
+per product (accepted / human review):
+  bake-sale-right: 0 / 0
+  bake-sale-wrong: 0 / 0
+  candle-shop-right: 0 / 0
+  candle-shop-wrong: 1 / 0
+  photo-booking-right: 0 / 0
+  photo-booking-wrong: 0 / 0
+  plant-seller-right: 1 / 0
+  plant-seller-wrong: 1 / 0
+  pottery-log-right: 1 / 0
+  pottery-log-wrong: 1 / 0
+  print-farm-right: 1 / 0
+  print-farm-wrong: 1 / 0
+  repair-desk-right: 0 / 1
+  repair-desk-wrong: 1 / 0
+  tour-guide-right: 0 / 1
+  tour-guide-wrong: 0 / 1
+  tutor-tracker-right: 0 / 1
+  tutor-tracker-wrong: 0 / 0
+  zine-shop-right: 0 / 1
+  zine-shop-wrong: 0 / 1
+full claims saved to gemma_debug.json
+checker findings marked unverified (unsupported spreadsheet formula): 0
+
+Note: run 2 (the full run_all.py run) used the same code and data and gave 4 of 10 instead of 5 of 10.
+In run 2, repair-desk-wrong was missed, where run 1 caught it.

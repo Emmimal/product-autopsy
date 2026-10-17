@@ -1,0 +1,242 @@
+{
+ "bake-sale-right": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "The starter data adds up to 1,610 in revenue.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1610,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "bake-sale-wrong": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "The starter data adds up to 1,347 in revenue.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1347,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "candle-shop-right": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "With the demo data in place, you should see total revenue of 1,842.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1842,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "candle-shop-wrong": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "With the demo data in place, you should see total revenue of 1,300.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1300,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "photo-booking-right": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "After you paste the example rows, the revenue figure at the bottom reads 1,433.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1433,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "photo-booking-wrong": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "After you paste the example rows, the revenue figure at the bottom reads 1,447.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1447,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "plant-seller-right": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "Total revenue for the sample period: 1,669.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1669,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "plant-seller-wrong": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "Total revenue for the sample period: 1,495.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1495,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "pottery-log-right": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "You will get 1,321 as the revenue total from the included rows.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1321,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "pottery-log-wrong": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "You will get 1,710 as the revenue total from the included rows.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1710,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "print-farm-right": {
+  "accepted": [],
+  "human_review": []
+ },
+ "print-farm-wrong": {
+  "accepted": [],
+  "human_review": []
+ },
+ "repair-desk-right": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "The sample revenue column sums to 1,413.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1413,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "repair-desk-wrong": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "The sample revenue column sums to 1,184.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1184,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "tour-guide-right": {
+  "accepted": [],
+  "human_review": []
+ },
+ "tour-guide-wrong": {
+  "accepted": [],
+  "human_review": []
+ },
+ "tutor-tracker-right": {
+  "accepted": [
+   {
+    "claim_id": "c2",
+    "claim_text": "Load the sample rows and revenue comes to 1,605 in total.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1605,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "tutor-tracker-wrong": {
+  "accepted": [
+   {
+    "claim_id": "c2",
+    "claim_text": "Load the sample rows and revenue comes to 1,694 in total.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1694,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "zine-shop-right": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "Across the ten sample months, revenue totals 1,397.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1397,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "zine-shop-wrong": {
+  "accepted": [
+   {
+    "claim_id": "c1",
+    "claim_text": "Across the ten sample months, revenue totals 1,521.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1521,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ }
+}

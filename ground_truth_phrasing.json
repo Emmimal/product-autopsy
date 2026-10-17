@@ -1,0 +1,142 @@
+[
+ {
+  "id": "tutor-tracker-wrong|sheet|total revenue",
+  "product": "tutor-tracker-wrong",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "free_phrasing_t0_wrong"
+ },
+ {
+  "id": "tutor-tracker-right|sheet|total revenue",
+  "product": "tutor-tracker-right",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "free_phrasing_t0_right"
+ },
+ {
+  "id": "candle-shop-wrong|sheet|total revenue",
+  "product": "candle-shop-wrong",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "free_phrasing_t1_wrong"
+ },
+ {
+  "id": "candle-shop-right|sheet|total revenue",
+  "product": "candle-shop-right",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "free_phrasing_t1_right"
+ },
+ {
+  "id": "photo-booking-wrong|sheet|total revenue",
+  "product": "photo-booking-wrong",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "free_phrasing_t2_wrong"
+ },
+ {
+  "id": "photo-booking-right|sheet|total revenue",
+  "product": "photo-booking-right",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "free_phrasing_t2_right"
+ },
+ {
+  "id": "bake-sale-wrong|sheet|total revenue",
+  "product": "bake-sale-wrong",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "free_phrasing_t3_wrong"
+ },
+ {
+  "id": "bake-sale-right|sheet|total revenue",
+  "product": "bake-sale-right",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "free_phrasing_t3_right"
+ },
+ {
+  "id": "plant-seller-wrong|sheet|total revenue",
+  "product": "plant-seller-wrong",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "free_phrasing_t4_wrong"
+ },
+ {
+  "id": "plant-seller-right|sheet|total revenue",
+  "product": "plant-seller-right",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "free_phrasing_t4_right"
+ },
+ {
+  "id": "print-farm-wrong|sheet|total revenue",
+  "product": "print-farm-wrong",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "free_phrasing_t5_wrong"
+ },
+ {
+  "id": "print-farm-right|sheet|total revenue",
+  "product": "print-farm-right",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "free_phrasing_t5_right"
+ },
+ {
+  "id": "tour-guide-wrong|sheet|total revenue",
+  "product": "tour-guide-wrong",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "free_phrasing_t6_wrong"
+ },
+ {
+  "id": "tour-guide-right|sheet|total revenue",
+  "product": "tour-guide-right",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "free_phrasing_t6_right"
+ },
+ {
+  "id": "zine-shop-wrong|sheet|total revenue",
+  "product": "zine-shop-wrong",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "free_phrasing_t7_wrong"
+ },
+ {
+  "id": "zine-shop-right|sheet|total revenue",
+  "product": "zine-shop-right",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "free_phrasing_t7_right"
+ },
+ {
+  "id": "pottery-log-wrong|sheet|total revenue",
+  "product": "pottery-log-wrong",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "free_phrasing_t8_wrong"
+ },
+ {
+  "id": "pottery-log-right|sheet|total revenue",
+  "product": "pottery-log-right",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "free_phrasing_t8_right"
+ },
+ {
+  "id": "repair-desk-wrong|sheet|total revenue",
+  "product": "repair-desk-wrong",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "free_phrasing_t9_wrong"
+ },
+ {
+  "id": "repair-desk-right|sheet|total revenue",
+  "product": "repair-desk-right",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "free_phrasing_t9_right"
+ }
+]

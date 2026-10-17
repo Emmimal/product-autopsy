@@ -1,0 +1,632 @@
+[
+ {
+  "id": "budget-planner|file|tracker.xlsx",
+  "product": "budget-planner",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "budget-planner|file|example-data.csv",
+  "product": "budget-planner",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "budget-planner|file|setup.xlsx",
+  "product": "budget-planner",
+  "category": "missing_file",
+  "defective": true,
+  "subtype": "absent_file"
+ },
+ {
+  "id": "budget-planner|link|guide.md",
+  "product": "budget-planner",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "budget-planner|link|guide.md#troubleshooting",
+  "product": "budget-planner",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "budget-planner|link|#setup",
+  "product": "budget-planner",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "budget-planner|link|docs/refund-policy.md",
+  "product": "budget-planner",
+  "category": "broken_link",
+  "defective": true,
+  "subtype": "missing_local_file"
+ },
+ {
+  "id": "budget-planner|sheet|total revenue",
+  "product": "budget-planner",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "range_short"
+ },
+ {
+  "id": "budget-planner|sheet|total cost",
+  "product": "budget-planner",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "freelance-invoice-kit|file|tracker.xlsx",
+  "product": "freelance-invoice-kit",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "freelance-invoice-kit|file|example-data.csv",
+  "product": "freelance-invoice-kit",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "freelance-invoice-kit|file|templates/invoice-template.docx",
+  "product": "freelance-invoice-kit",
+  "category": "missing_file",
+  "defective": true,
+  "subtype": "absent_file"
+ },
+ {
+  "id": "freelance-invoice-kit|link|guide.md",
+  "product": "freelance-invoice-kit",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "freelance-invoice-kit|link|guide.md#troubleshooting",
+  "product": "freelance-invoice-kit",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "freelance-invoice-kit|link|#setup",
+  "product": "freelance-invoice-kit",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "freelance-invoice-kit|link|../assets/cover.pdf",
+  "product": "freelance-invoice-kit",
+  "category": "broken_link",
+  "defective": true,
+  "subtype": "escapes_package"
+ },
+ {
+  "id": "freelance-invoice-kit|sheet|total revenue",
+  "product": "freelance-invoice-kit",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "range_short"
+ },
+ {
+  "id": "freelance-invoice-kit|sheet|total cost",
+  "product": "freelance-invoice-kit",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "habit-tracker|file|tracker.xlsx",
+  "product": "habit-tracker",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "habit-tracker|file|example-data.csv",
+  "product": "habit-tracker",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "habit-tracker|file|sample-clients.csv",
+  "product": "habit-tracker",
+  "category": "missing_file",
+  "defective": true,
+  "subtype": "absent_file"
+ },
+ {
+  "id": "habit-tracker|link|guide.md",
+  "product": "habit-tracker",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "habit-tracker|link|guide.md#troubleshooting",
+  "product": "habit-tracker",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "habit-tracker|link|#setup",
+  "product": "habit-tracker",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "habit-tracker|link|Guide.MD",
+  "product": "habit-tracker",
+  "category": "broken_link",
+  "defective": true,
+  "subtype": "case_mismatch"
+ },
+ {
+  "id": "habit-tracker|sheet|total revenue",
+  "product": "habit-tracker",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "range_short"
+ },
+ {
+  "id": "habit-tracker|sheet|total cost",
+  "product": "habit-tracker",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "meal-prep-planner|file|tracker.xlsx",
+  "product": "meal-prep-planner",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "meal-prep-planner|file|example-data.csv",
+  "product": "meal-prep-planner",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "meal-prep-planner|file|start-here.txt",
+  "product": "meal-prep-planner",
+  "category": "missing_file",
+  "defective": true,
+  "subtype": "absent_file"
+ },
+ {
+  "id": "meal-prep-planner|link|guide.md",
+  "product": "meal-prep-planner",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "meal-prep-planner|link|guide.md#troubleshooting",
+  "product": "meal-prep-planner",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "meal-prep-planner|link|#setup",
+  "product": "meal-prep-planner",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "meal-prep-planner|link|guide.md#installation",
+  "product": "meal-prep-planner",
+  "category": "broken_link",
+  "defective": true,
+  "subtype": "missing_anchor"
+ },
+ {
+  "id": "meal-prep-planner|sheet|total revenue",
+  "product": "meal-prep-planner",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "range_short"
+ },
+ {
+  "id": "meal-prep-planner|sheet|total cost",
+  "product": "meal-prep-planner",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "etsy-profit-sheet|file|tracker.xlsx",
+  "product": "etsy-profit-sheet",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "etsy-profit-sheet|file|example-data.csv",
+  "product": "etsy-profit-sheet",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "etsy-profit-sheet|file|config/settings.json",
+  "product": "etsy-profit-sheet",
+  "category": "missing_file",
+  "defective": true,
+  "subtype": "absent_file"
+ },
+ {
+  "id": "etsy-profit-sheet|link|guide.md",
+  "product": "etsy-profit-sheet",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "etsy-profit-sheet|link|guide.md#troubleshooting",
+  "product": "etsy-profit-sheet",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "etsy-profit-sheet|link|#setup",
+  "product": "etsy-profit-sheet",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "etsy-profit-sheet|link|#faq",
+  "product": "etsy-profit-sheet",
+  "category": "broken_link",
+  "defective": true,
+  "subtype": "missing_local_anchor"
+ },
+ {
+  "id": "etsy-profit-sheet|sheet|total revenue",
+  "product": "etsy-profit-sheet",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "column_mismatch"
+ },
+ {
+  "id": "etsy-profit-sheet|sheet|total cost",
+  "product": "etsy-profit-sheet",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "podcast-launch-kit|file|tracker.xlsx",
+  "product": "podcast-launch-kit",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "podcast-launch-kit|file|example-data.csv",
+  "product": "podcast-launch-kit",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "podcast-launch-kit|file|monthly-summary.xlsx",
+  "product": "podcast-launch-kit",
+  "category": "missing_file",
+  "defective": true,
+  "subtype": "absent_file"
+ },
+ {
+  "id": "podcast-launch-kit|link|guide.md",
+  "product": "podcast-launch-kit",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "podcast-launch-kit|link|guide.md#troubleshooting",
+  "product": "podcast-launch-kit",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "podcast-launch-kit|link|#setup",
+  "product": "podcast-launch-kit",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "podcast-launch-kit|link|docs/license.md",
+  "product": "podcast-launch-kit",
+  "category": "broken_link",
+  "defective": true,
+  "subtype": "missing_local_file"
+ },
+ {
+  "id": "podcast-launch-kit|sheet|total revenue",
+  "product": "podcast-launch-kit",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "column_mismatch"
+ },
+ {
+  "id": "podcast-launch-kit|sheet|total cost",
+  "product": "podcast-launch-kit",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "wedding-checklist|file|tracker.xlsx",
+  "product": "wedding-checklist",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "wedding-checklist|file|example-data.csv",
+  "product": "wedding-checklist",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "wedding-checklist|file|checklist.pdf",
+  "product": "wedding-checklist",
+  "category": "missing_file",
+  "defective": true,
+  "subtype": "absent_file"
+ },
+ {
+  "id": "wedding-checklist|link|guide.md",
+  "product": "wedding-checklist",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "wedding-checklist|link|guide.md#troubleshooting",
+  "product": "wedding-checklist",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "wedding-checklist|link|#setup",
+  "product": "wedding-checklist",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "wedding-checklist|link|../shared/styles.css",
+  "product": "wedding-checklist",
+  "category": "broken_link",
+  "defective": true,
+  "subtype": "escapes_package"
+ },
+ {
+  "id": "wedding-checklist|sheet|total revenue",
+  "product": "wedding-checklist",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "column_mismatch"
+ },
+ {
+  "id": "wedding-checklist|sheet|total cost",
+  "product": "wedding-checklist",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "fitness-log|file|tracker.xlsx",
+  "product": "fitness-log",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "fitness-log|file|example-data.csv",
+  "product": "fitness-log",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "fitness-log|file|LICENSE.txt",
+  "product": "fitness-log",
+  "category": "missing_file",
+  "defective": true,
+  "subtype": "absent_file"
+ },
+ {
+  "id": "fitness-log|link|guide.md",
+  "product": "fitness-log",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "fitness-log|link|guide.md#troubleshooting",
+  "product": "fitness-log",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "fitness-log|link|#setup",
+  "product": "fitness-log",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "fitness-log|link|Guide.md",
+  "product": "fitness-log",
+  "category": "broken_link",
+  "defective": true,
+  "subtype": "case_mismatch"
+ },
+ {
+  "id": "fitness-log|sheet|total revenue",
+  "product": "fitness-log",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "promise_wrong"
+ },
+ {
+  "id": "fitness-log|sheet|total cost",
+  "product": "fitness-log",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "runway-model|file|tracker.xlsx",
+  "product": "runway-model",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "runway-model|file|example-data.csv",
+  "product": "runway-model",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "runway-model|file|categories.csv",
+  "product": "runway-model",
+  "category": "missing_file",
+  "defective": true,
+  "subtype": "absent_file"
+ },
+ {
+  "id": "runway-model|link|guide.md",
+  "product": "runway-model",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "runway-model|link|guide.md#troubleshooting",
+  "product": "runway-model",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "runway-model|link|#setup",
+  "product": "runway-model",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "runway-model|link|guide.md#getting-started",
+  "product": "runway-model",
+  "category": "broken_link",
+  "defective": true,
+  "subtype": "missing_anchor"
+ },
+ {
+  "id": "runway-model|sheet|total revenue",
+  "product": "runway-model",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "promise_wrong_free_phrasing"
+ },
+ {
+  "id": "runway-model|sheet|total cost",
+  "product": "runway-model",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "study-planner|file|tracker.xlsx",
+  "product": "study-planner",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "study-planner|file|example-data.csv",
+  "product": "study-planner",
+  "category": "missing_file",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "study-planner|file|bonus-pack.zip",
+  "product": "study-planner",
+  "category": "missing_file",
+  "defective": true,
+  "subtype": "absent_file"
+ },
+ {
+  "id": "study-planner|link|guide.md",
+  "product": "study-planner",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "study-planner|link|guide.md#troubleshooting",
+  "product": "study-planner",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "study-planner|link|#setup",
+  "product": "study-planner",
+  "category": "broken_link",
+  "defective": false,
+  "subtype": "valid"
+ },
+ {
+  "id": "study-planner|link|#pricing",
+  "product": "study-planner",
+  "category": "broken_link",
+  "defective": true,
+  "subtype": "missing_local_anchor"
+ },
+ {
+  "id": "study-planner|sheet|total revenue",
+  "product": "study-planner",
+  "category": "spreadsheet",
+  "defective": true,
+  "subtype": "promise_wrong_free_phrasing"
+ },
+ {
+  "id": "study-planner|sheet|total cost",
+  "product": "study-planner",
+  "category": "spreadsheet",
+  "defective": false,
+  "subtype": "valid"
+ }
+]

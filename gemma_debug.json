@@ -1,0 +1,230 @@
+{
+ "bake-sale-right": {
+  "accepted": [],
+  "human_review": []
+ },
+ "bake-sale-wrong": {
+  "accepted": [],
+  "human_review": []
+ },
+ "candle-shop-right": {
+  "accepted": [],
+  "human_review": []
+ },
+ "candle-shop-wrong": {
+  "accepted": [
+   {
+    "claim_id": "c2",
+    "claim_text": "With the demo data in place, you should see total revenue of 1,300.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1300,
+    "required_evidence": "The total revenue value in the spreadsheet"
+   }
+  ],
+  "human_review": []
+ },
+ "photo-booking-right": {
+  "accepted": [],
+  "human_review": []
+ },
+ "photo-booking-wrong": {
+  "accepted": [],
+  "human_review": []
+ },
+ "plant-seller-right": {
+  "accepted": [
+   {
+    "claim_id": "c2",
+    "claim_text": "Total revenue for the sample period: 1,669.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1669,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "plant-seller-wrong": {
+  "accepted": [
+   {
+    "claim_id": "c2",
+    "claim_text": "Total revenue for the sample period: 1,495.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1495,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "pottery-log-right": {
+  "accepted": [
+   {
+    "claim_id": "c2",
+    "claim_text": "You will get 1,321 as the revenue total from the included rows.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1321,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "pottery-log-wrong": {
+  "accepted": [
+   {
+    "claim_id": "c2",
+    "claim_text": "You will get 1,710 as the revenue total from the included rows.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1710,
+    "required_evidence": "value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "print-farm-right": {
+  "accepted": [
+   {
+    "claim_id": "c2",
+    "claim_text": "Expect 1,448 in revenue once the sample months are loaded.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1448,
+    "required_evidence": "The value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "print-farm-wrong": {
+  "accepted": [
+   {
+    "claim_id": "c2",
+    "claim_text": "Expect 1,479 in revenue once the sample months are loaded.",
+    "source_file": "README.md",
+    "check_type": "spreadsheet_total",
+    "target": "Total Revenue",
+    "expected_value": 1479,
+    "required_evidence": "The value of the Total Revenue cell"
+   }
+  ],
+  "human_review": []
+ },
+ "repair-desk-right": {
+  "accepted": [],
+  "human_review": []
+ },
+ "repair-desk-wrong": {
+  "accepted": [],
+  "human_review": []
+ },
+ "tour-guide-right": {
+  "accepted": [],
+  "human_review": [
+   {
+    "reason": "no_expected_value",
+    "claim": {
+     "claim_id": "c2",
+     "claim_text": "Open `tracker.xlsx` first and enter your starting balance.",
+     "source_file": "README.md",
+     "check_type": "spreadsheet_total",
+     "target": "Total Revenue",
+     "expected_value": null,
+     "required_evidence": "The starting balance in the workbook."
+    }
+   }
+  ]
+ },
+ "tour-guide-wrong": {
+  "accepted": [],
+  "human_review": [
+   {
+    "reason": "no_expected_value",
+    "claim": {
+     "claim_id": "c2",
+     "claim_text": "Open `tracker.xlsx` first and enter your starting balance.",
+     "source_file": "README.md",
+     "check_type": "spreadsheet_total",
+     "target": "Total Revenue",
+     "expected_value": null,
+     "required_evidence": "The value of the Total Revenue cell in the workbook should be 1,392."
+    }
+   }
+  ]
+ },
+ "tutor-tracker-right": {
+  "accepted": [],
+  "human_review": [
+   {
+    "reason": "claim_text_not_in_source",
+    "claim": {
+     "claim_id": "c2",
+     "claim_text": "The workbook: `tracker.xlsx` contains the workbook: `tracker.xlsx` and Demo rows: `example-data.csv`",
+     "source_file": "README.md",
+     "check_type": "spreadsheet_total",
+     "target": "Total Revenue",
+     "expected_value": 1605,
+     "required_evidence": "workbook name and data source"
+    }
+   }
+  ]
+ },
+ "tutor-tracker-wrong": {
+  "accepted": [],
+  "human_review": [
+   {
+    "reason": "claim_text_not_in_source",
+    "claim": {
+     "claim_id": "c2",
+     "claim_text": "The workbook: `tracker.xlsx` contains the workbook: `tracker.xlsx` and the demo rows: `example-data.csv`.",
+     "source_file": "README.md",
+     "check_type": "spreadsheet_total",
+     "target": "Total Revenue",
+     "expected_value": 1694,
+     "required_evidence": "workbook name and data in tracker.xlsx"
+    }
+   }
+  ]
+ },
+ "zine-shop-right": {
+  "accepted": [],
+  "human_review": [
+   {
+    "reason": "no_expected_value",
+    "claim": {
+     "claim_id": "c2",
+     "claim_text": "Open `tracker.xlsx` first and enter your starting balance.",
+     "source_file": "README.md",
+     "check_type": "spreadsheet_total",
+     "target": "Total Revenue",
+     "expected_value": null,
+     "required_evidence": "The value of the Total Revenue cell in the tracker.xlsx file."
+    }
+   }
+  ]
+ },
+ "zine-shop-wrong": {
+  "accepted": [],
+  "human_review": [
+   {
+    "reason": "no_expected_value",
+    "claim": {
+     "claim_id": "c2",
+     "claim_text": "Open `tracker.xlsx` first and enter your starting balance.",
+     "source_file": "README.md",
+     "check_type": "spreadsheet_total",
+     "target": "Total Revenue",
+     "expected_value": null,
+     "required_evidence": "The value of the Total Revenue cell in the tracker.xlsx file."
+    }
+   }
+  ]
+ }
+}
