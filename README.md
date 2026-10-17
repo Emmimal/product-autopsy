@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Product Autopsy
 
 Checks whether a digital product (a spreadsheet, template pack, guide or starter kit) delivers what its listing promises. It reads a product folder the way a disappointed buyer would and tests every promise it can verify against the actual files.
@@ -93,7 +92,5 @@ The fix for the four confirmed defects is [commit c93d44e](https://github.com/Em
 ## License
 
 MIT
-=======
 # product-autopsy
 A Python-based tool that audits product and repository claims against actual project files, identifies broken promises, and evaluates finding accuracy across deterministic, clean-phrasing, and noisy-phrasing benchmarks.
->>>>>>> origin/main
