@@ -4,6 +4,8 @@ Checks whether a digital product (a spreadsheet, template pack, guide or starter
 
 Built for the DEV Hacktoberfest Open-Source AI Challenge, Week 2: Side Hustle. A small local model (Gemma 3 1B through Ollama) reads promises written in prose. Plain code decides what is true. A validator rejects model claims that fail the source-grounding and workbook checks and leaves them for human review.
 
+**Write-up:** [Product Autopsy: My Auditor Flagged 18 Broken Promises in My Own Repos. Four Were Real](https://dev.to/emmimal_alexander_3be8cc7/product-autopsy-my-auditor-flagged-18-broken-promises-in-my-own-repos-four-were-real-bi1)
+
 ## What it checks
 
 | Check | What it catches |
