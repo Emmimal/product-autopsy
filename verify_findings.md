@@ -119,7 +119,7 @@ Open:      real_own\graph-density-engine\requirements.txt
 Look for:  agents/llm.py
 My proposal: confirmed_defect
 Evidence:  requirements.txt comment says agents/llm.py calls the Anthropic API via urllib. agents/ has only __init__, base, dummy, policy, and no .py file in the repo contains urllib or api.anthropic.
-YOUR VERDICT: uncertain
+YOUR VERDICT: confirmed_defect
 
 ## 15. local-mcp-server  ->  requirements.txt
 
